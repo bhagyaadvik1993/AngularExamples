@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './ng-if.component.scss'
 })
 export class NgIfComponent {
+  isVisible = true; // Change to false to hide the div
 
 }

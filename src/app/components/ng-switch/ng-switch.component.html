@@ -1,1 +1,7 @@
-<p>ng-switch works!</p>
+<div [ngSwitch]="selectedOption">
+    <div *ngSwitchCase="'A'">Option A is selected</div>
+    <div *ngSwitchCase="'B'">Option B is selected</div>
+    <div *ngSwitchCase="'C'">Option C is selected</div>
+    <div *ngSwitchDefault>None of the options are selected</div>
+  </div>
+  

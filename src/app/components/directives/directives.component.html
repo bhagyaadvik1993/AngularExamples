@@ -1,1 +1,18 @@
-<p>directives works!</p>
+<!-- *ngIf Example -->
+<div *ngIf="isVisible">This is visible if isVisible is true.</div>
+
+<!-- *ngFor Example -->
+<ul>
+  <li *ngFor="let item of items">{{ item }}</li>
+</ul>
+
+<div [ngClass]="{ 'active': isActive, 'inactive': !isActive }">
+    The current status is: {{ isActive ? 'Active' : 'Inactive' }}
+  </div>
+  <button (click)="toggleStatus()">Toggle Status</button>
+
+  <div appHighlight>
+    Hover over this text to see the highlight effect!
+  </div>
+  
+

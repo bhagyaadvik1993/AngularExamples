@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common'; 
+//import { appHighlight} from '../../directives/highlight.directive'
 
 @Component({
   selector: 'app-directives',
